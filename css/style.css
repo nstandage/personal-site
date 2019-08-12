@@ -1,0 +1,449 @@
+/* -------------Header---------------- */
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  width: 8em;
+  text-align: left;
+}
+
+.header-scroll {
+  background-color: white;
+  padding: 1em;
+  margin: 0em 0em 6em 0em;
+  border-bottom: 2px solid black;
+  box-shadow: 2px 2px 20px grey;
+  width: 100vw;
+}
+/* .header-fixed + .main {
+  padding-top: 102px;
+} */
+
+.header-fixed {
+  background-color: white;
+  padding: 1em;
+  margin: 0px;
+  position: fixed;
+  top: 0px;
+  width: 97.5vw;
+  border-bottom: 2px solid black;
+  box-shadow: 2px 2px 20px grey;
+  /* opacity: 0.98; */
+}
+
+.main {
+  margin: 0px 0px 0px 0px;
+  padding: 0;
+  width: 100vw;
+}
+
+.yellow:hover {
+  color: #fded5d;
+}
+
+.red a:hover {
+  color: #f36464;
+}
+
+.orange a:hover {
+  color: #fab14d;
+}
+
+.green a:hover {
+  color: #7be787;
+}
+
+.blue a:hover {
+  color: #5f7eff;
+}
+
+.menu {
+  padding: 1em;
+  margin: 0em 2em 0em 0em;
+  float: right;
+  display: block;
+}
+
+.menuSpace {
+  padding: 0.2em;
+  display: inline;
+  font-style: normal;
+}
+
+.menuItem {
+  padding: 0.2em;
+  display: inline;
+  font-style: normal;
+}
+
+.endOfHeaderLine {
+  margin-left: 4em;
+  margin-right: 4em;
+  background-color: black;
+  color: black;
+  border: none;
+  height: 1px;
+}
+
+.menuItem a {
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+  font-family: Didot;
+  font-weight: 100;
+  font-size: 1.3em;
+}
+
+/* ------------ Intro ------------ */
+
+.section {
+  margin: 2em 8em 6em 8em;
+  padding: 0em 0em 2em 0em;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 2px 2px 20px grey;
+}
+
+.introText {
+  font-family: Helvetica Neue Heavy;
+  font-size: 1.7em;
+  padding: 2em;
+  transform: translateX(0);
+  flex-shrink: 2;
+}
+
+/* ------------ Developer ------------ */
+
+.sectionTitle hr {
+  width: 100%;
+  background-color: black;
+  color: black;
+  border: none;
+  height: 1px;
+}
+
+.sectionTitle h1 {
+  margin: 0px 0px 0.5em 1em;
+  font-family: Didot;
+  font-weight: 200;
+  font-size: 1.7em;
+  color: black;
+}
+
+.sectionTitle {
+  margin: 2em 2em 2em 3em;
+  width: 16em;
+  background-color: white;
+  position: relative;
+}
+
+/* ------------------ cardContainer ---------------- */
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  flex-direction: row;
+}
+
+.cardContainer p {
+  text-align: center;
+  font-size: 2em;
+}
+
+/* ------------------ Card---------------- */
+
+.card {
+  width: 15em;
+  max-height: 20em;
+  border: 2px solid black;
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  /* position: relative; */
+  text-align: center;
+}
+
+.cardInfo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: none;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardInfo p {
+  font-family: Helvetica Neue Thin;
+  font-size: 1em;
+  color: white;
+  opacity: 1;
+  z-index: 5;
+  margin: 0px 12px 0px 12px;
+  padding: 0px;
+}
+.cardInfo h3 {
+  font-weight: normal;
+  font-family: Didot;
+  font-size: 1.7em;
+  color: white;
+  opacity: 1;
+  z-index: 5;
+  margin: 10px 0px 20px 0px;
+}
+
+.cardButton {
+  font-family: Didot;
+  font-size: 1em;
+  height: 3em;
+  width: 7em;
+  max-width: auto;
+  background-color: rgb(255, 60, 60);
+  border: none;
+  color: white;
+  z-index: 10;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.cardInfo:hover {
+  opacity: 1;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.cardTint {
+  background-color: black;
+  opacity: 0.8;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* ------------------ About ------------------- */
+
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.aboutCard {
+  padding: 2em;
+  width: 16em;
+  padding: 2em;
+}
+
+.aboutCard p {
+  font-family: Helvetica Neue Light;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+.headshot {
+  border: 4px solid black;
+  height: 250px;
+}
+
+/* -------------------------Contact-------------------  */
+
+.contactFormContainer {
+  margin: 1em 4em 3em 4em;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  /* border: 3px solid purple; */
+}
+
+.contactForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1em 2em 3em 2em;
+  padding: 1em;
+  margin: 0em;
+  padding: 0em;
+  background-color: white;
+  transition: 1s;
+  /* border: 1px solid red; */
+}
+
+.contactInput {
+  margin: 0.1em;
+  padding: 0.2em;
+
+  max-width: 40em;
+  font-size: 1em;
+  font-family: Helvetica Neue Thin;
+  font-weight: 100;
+}
+
+.contactBody {
+  max-width: 40em;
+  margin: 0.01em;
+  padding: 0.2em;
+  font-size: 1em;
+  font-family: Helvetica Neue Light;
+  font-weight: 100;
+}
+
+form {
+  font-family: Didot;
+  font-size: 1.05em;
+  /* min-width: 20em; */
+  max-width: 50em;
+  width: 40em;
+}
+
+.submitButton {
+  font-family: Didot;
+  font-size: 1em;
+  height: 3em;
+  width: 7em;
+  min-width: auto;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* ------------------- FOOTER ----------------- */
+
+footer {
+  background-color: black;
+  height: 10em;
+  margin: 0px;
+  padding: 0px;
+  box-shadow: 2px 2px 10px grey;
+}
+
+.socialMedia {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.socialItem {
+  padding: 0.2em;
+  display: inline;
+  font-style: normal;
+}
+
+.socialItem a {
+  font-style: normal;
+  text-decoration: none;
+  color: white;
+  font-family: Didot;
+  font-weight: 100;
+  font-size: 1.2em;
+}
+
+.copywriteTag {
+  color: white;
+  font-family: Helvetica Neue Light;
+  font-size: 0.8em;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* ----------------- Animations --------------- */
+
+.musicianCard,
+.developerCard {
+  opacity: 0;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+.musicianCard.visible,
+.developerCard.visible {
+  opacity: 1;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+
+.fade-in {
+  opacity: 0.2;
+}
+
+/* -------------- Fonts --------------- */
+
+@font-face {
+  font-family: "Didot";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Didot/Didot.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Helvetica Neue Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/HelveticaNeue/HelveticaNeue-Heavy.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Helvetica Neue Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/HelveticaNeue/HelveticaNeue-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Helvetica Neue Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/HelveticaNeue/HelveticaNeue-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Helvetica Neue Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/HelveticaNeue/HelveticaNeue-Thin.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Helvetica Neue Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/HelveticaNeue/HelveticaNeueBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Helvetica Neue Ultra Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/HelveticaNeue/HelveticaNeueUltraLight.woff") format("woff");
+}

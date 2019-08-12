@@ -1,0 +1,96 @@
+@media only screen and (max-width: 650px) {
+  body {
+    background-image: none;
+  }
+
+  .introText {
+    font-size: 1.2em;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sectionTitle {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin: 16px 0px 8px 0px;
+  }
+
+  .sectionTitle hr {
+    display: none;
+    text-align: centered;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .sectionTitle h1 {
+    text-align: centered;
+    padding: 0px;
+    margin: 0px;
+    font-size: 26px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .header-scroll {
+    display: flex;
+    justify-content: center;
+    margin: 0em 0em 2em 0em;
+  }
+
+  .cardContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer {
+    height: 6em;
+  }
+
+  .card {
+    zoom: 0.8;
+    margin: 0.5em;
+  }
+
+  .copywriteTag {
+    text-align: center;
+  }
+
+  .socialMedia {
+    padding: 0.5em;
+  }
+
+  .contactFormContainer {
+    /* margin: 1em 4em 3em 4em; */
+    zoom: 0.8;
+    margin: 0em;
+    padding: 0em;
+    max-width: 25em;
+  }
+
+  .contactFrom {
+    margin: 0em;
+    padding: 0em;
+  }
+
+  .contactInput {
+    border: 1px solid lightgray;
+  }
+
+  .contactBody {
+    border: 1px solid lightgray;
+  }
+
+  .submitButtonContainer {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+  }
+}

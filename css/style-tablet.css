@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1001px) {
+  body {
+    background-image: none;
+  }
+
+  .logo {
+    width: 6.5em;
+  }
+
+  .menuItem a {
+    font-size: 1.05em;
+  }
+
+  .section {
+    margin: 1em 4em 2em 4em;
+    padding: 0em 0em 1em 0em;
+  }
+
+  .introText {
+    font-size: 1.3em;
+  }
+
+  .sectionTitle {
+    margin: 1.2em 1.2em 1.2em 2em;
+    width: 10em;
+  }
+
+  .sectionTitle h1 {
+    font-size: 1.3em;
+  }
+
+  .cardInfo p {
+    font-size: 0.5em;
+    margin: 0px 8px 0px 8px;
+  }
+
+  .cardInfo h3 {
+    font-size: 1em;
+    margin: 8px 0px 12px 0px;
+  }
+
+  .cardButton {
+    font-size: 0.8em;
+    height: 2em;
+    width: 5em;
+    margin-top: 12px;
+    margin-bottom: 4px;
+  }
+
+  .contactForm {
+    margin: 1em 4em 2em 4em;
+    padding: 0em 0em 1em 0em;
+  }
+
+  form {
+    font-size: 0.9em;
+  }
+
+  .socialItem a {
+    font-size: 1.05em;
+  }
+
+  .copywriteTag {
+    font-size: 0.6em;
+  }
+}
